@@ -1,2 +1,9 @@
-bin/
+*.msi
+.vscode/
 obj/
+bin/
+.vs/
+TestResults/
+*.DotSettings.user
+# Documentation files
+PTVGroup.*/PTVGroup.*.xml
