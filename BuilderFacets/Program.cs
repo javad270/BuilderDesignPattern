@@ -9,13 +9,13 @@ namespace BuilderFacets
       var pb = new PersonBuilder();
       Person person = pb
         .Lives
-          .At("123 London Road")
-          .In("London")
-          .WithPostcode("SW12BC")
+          .At("Via Spallanzani")
+          .In("Roma")
+          .WithPostcode("00139")
         .Works
-          .At("Fabrikam")
-          .AsA("Engineer")
-          .Earning(123000);
+          .At("PTV")
+          .AsA("Developer")
+          .Earning(30000);
 
       WriteLine(person);
     }
