@@ -2,18 +2,12 @@
 {
   public class Program
   {
-    class SomeBuilder : PersonBirthDateBuilder<SomeBuilder>
-    {
-
-    }
-
-
     public static void Main(string[] args)
     {
       var me = Person.New
-        .Called("Dmitri")
-        .WorksAsA("Quant")
         .Born(DateTime.UtcNow)
+        .WorksAsA("Developer")
+        .Called("Javad")
         .Build();
       Console.WriteLine(me);
     }
